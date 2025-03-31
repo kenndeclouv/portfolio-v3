@@ -27,6 +27,8 @@ class DatabaseSeeder extends Seeder
                 'first_preview' => '/assets/images/averroes/first_preview.png',
                 'second_preview' => '/assets/images/averroes/second_preview.png',
                 'third_preview' => '/assets/images/averroes/third_preview.png',
+                'show_in_home' => true,
+                'show_in_projects' => true,
             ],
             [
                 'id' => 2,
@@ -42,6 +44,8 @@ class DatabaseSeeder extends Seeder
                 'first_preview' => '/assets/images/arunika/first_preview.png',
                 'second_preview' => '/assets/images/arunika/second_preview.png',
                 'third_preview' => '/assets/images/arunika/third_preview.png',
+                'show_in_home' => true,
+                'show_in_projects' => true,
             ],
             [
                 'id' => 3,
@@ -57,6 +61,8 @@ class DatabaseSeeder extends Seeder
                 'first_preview' => '/assets/images/imam_muda/first_preview.png',
                 'second_preview' => '/assets/images/imam_muda/second_preview.png',
                 'third_preview' => '/assets/images/imam_muda/third_preview.png',
+                'show_in_home' => true,
+                'show_in_projects' => true,
             ],
             [
                 'id' => 4,
@@ -73,6 +79,8 @@ class DatabaseSeeder extends Seeder
                 'first_preview' => '/assets/images/sidigs/first_preview.png',
                 'second_preview' => '/assets/images/sidigs/second_preview.png',
                 'third_preview' => '/assets/images/sidigs/third_preview.png',
+                'show_in_home' => false,
+                'show_in_projects' => true,
             ],
             [
                 'id' => 5,
@@ -88,6 +96,8 @@ class DatabaseSeeder extends Seeder
                 'first_preview' => '/assets/images/medina/first_preview.png',
                 'second_preview' => '/assets/images/medina/second_preview.png',
                 'third_preview' => '/assets/images/medina/third_preview.png',
+                'show_in_home' => true,
+                'show_in_projects' => true,
             ],
         ];
 

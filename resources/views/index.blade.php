@@ -127,13 +127,13 @@
                     data-bgcolor="#0c0c0c">
 
                     <div class="list-rotator-wrapper">
-                        <div class="list-rotator-title">MY SKILLS COVER</div>
+                        <div class="list-rotator-title">MY SERVICES</div>
                         <div class="list-rotator-pin">
                             <ul class="list-rotator primary-font-title">
-                                <li>Expert Web Design Solutions</li>
-                                <li>Custom Web Development Services</li>
-                                <li>Optimized Website SEO Strategies</li>
-                                <li>User-Centric UI/UX Design Approach</li>
+                                <li>Web Design</li>
+                                <li>Web Development</li>
+                                <li>Optimized SEO</li>
+                                <li>UI/UX Design</li>
                                 <li>Reliable Web Hosting Options</li>
                             </ul>
                         </div>
@@ -153,7 +153,7 @@
                                 <i class="fa fa-paper-plane fa-2x" aria-hidden="true"></i>
                             </div>
                             <div class="box-icon-content">
-                                <h6 class="no-margins"><a href="mailto:office@montoya.com"
+                                <h6 class="no-margins"><a href="mailto:kenndeclouv@gmail.com"
                                         class="link"><span>kenndeclouv@gmail.com</span></a></h6>
                                 <p>Email</p>
                             </div>
@@ -208,8 +208,7 @@
                 <div class="page-nav-wrap">
                     <div class="page-nav-caption content-full-width text-align-center height-title">
                         <div class="inner">
-                            <div class="next-hero-subtitle caption-timeline"><span>EXPLORING OUR WORLD
-                                    OF VISUAL AND INTERACTIVE DESIGN</span></div>
+                            <div class="next-hero-subtitle caption-timeline"><span>EXPLORE MY ADVENTURE</span></div>
                             <a class="page-title next-ajax-link-page" data-type="page-transition"
                                 data-centerline="ABOUT ME" href="{{ route('about') }}">
                                 <div class="next-hero-title primary-font-title caption-timeline">

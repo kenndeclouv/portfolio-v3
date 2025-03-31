@@ -129,7 +129,8 @@
                             <div class="start-move-thumb" data-start="top 120%" data-stop="600%">
                                 <div class="move-thumb-inner">
                                     <div class="section-image">
-                                        <img src="{{ asset('assets/images/aw01.jpg') }}" class="item-image" alt="">
+                                        <img src="{{ asset('assets/images/certification/1.png') }}" class="item-image"
+                                            alt="">
                                     </div>
                                 </div>
                             </div>
@@ -137,7 +138,8 @@
                             <div class="start-move-thumb" data-start="top 90%" data-stop="1100%">
                                 <div class="move-thumb-inner">
                                     <div class="section-image">
-                                        <img src="{{ asset('assets/images/aw02.jpg') }}" class="item-image" alt="">
+                                        <img src="{{ asset('assets/images/certification/2.png') }}" class="item-image"
+                                            alt="">
                                     </div>
                                 </div>
                             </div>
@@ -145,7 +147,8 @@
                             <div class="start-move-thumb" data-start="top 90%" data-stop="400%">
                                 <div class="move-thumb-inner">
                                     <div class="section-image">
-                                        <img src="{{ asset('assets/images/aw03.jpg') }}" class="item-image" alt="">
+                                        <img src="{{ asset('assets/images/certification/3.png') }}" class="item-image"
+                                            alt="">
                                     </div>
                                 </div>
                             </div>
@@ -153,7 +156,8 @@
                             <div class="start-move-thumb" data-start="top 120%" data-stop="600%">
                                 <div class="move-thumb-inner">
                                     <div class="section-image">
-                                        <img src="{{ asset('assets/images/aw04.jpg') }}" class="item-image" alt="">
+                                        <img src="{{ asset('assets/images/certification/4.png') }}" class="item-image"
+                                            alt="">
                                     </div>
                                 </div>
                             </div>
@@ -161,7 +165,8 @@
                             <div class="start-move-thumb" data-start="top 100%" data-stop="750%">
                                 <div class="move-thumb-inner">
                                     <div class="section-image">
-                                        <img src="{{ asset('assets/images/aw05.jpg') }}" class="item-image" alt="">
+                                        <img src="{{ asset('assets/images/certification/5.png') }}" class="item-image"
+                                            alt="">
                                     </div>
                                 </div>
                             </div>
@@ -169,14 +174,12 @@
                             <div class="start-move-thumb" data-start="top 40%" data-stop="300%">
                                 <div class="move-thumb-inner">
                                     <div class="section-image">
-                                        <img src="{{ asset('assets/images/aw06.jpg') }}" class="item-image"
+                                        <img src="{{ asset('assets/images/certification/6.png') }}" class="item-image"
                                             alt="">
                                     </div>
                                 </div>
                             </div>
-
                         </div>
-
 
                         <div class="end-thumbs-wrapper">
                             <div class="end-move-thumb"></div>
@@ -186,10 +189,7 @@
                             <div class="end-move-thumb"></div>
                             <div class="end-move-thumb"></div>
                         </div>
-
                     </div>
-
-
                 </div>
                 <!--/Row -->
                 <!-- Row -->
@@ -404,13 +404,15 @@
                 <div class="content-row row_padding_bottom light-section" data-bgcolor="#0c0c0c">
 
                     <div class="marquee-text-wrapper">
-                        <h2 class="marquee-text bw big-title primary-font-title" style="color: #f9e8c9;">Let's bring your vision to life with cutting-edge technology.</h2>
+                        <h2 class="marquee-text bw big-title primary-font-title" style="color: #f9e8c9;">Let's bring your
+                            vision to life with cutting-edge technology.</h2>
                     </div>
 
                     <hr>
 
                     <div class="marquee-text-wrapper">
-                        <h2 class="marquee-text fw big-title primary-font-title" style="color: #f9e8c9;">Ready to transform your business? Let's get started today!</h2>
+                        <h2 class="marquee-text fw big-title primary-font-title" style="color: #f9e8c9;">Ready to
+                            transform your business? Let's get started today!</h2>
                     </div>
 
                 </div>
@@ -427,11 +429,13 @@
                 <div class="page-nav-wrap">
                     <div class="page-nav-caption content-full-width text-align-center height-title">
                         <div class="inner">
-                            <div class="next-hero-subtitle caption-timeline"><span>CONTACT US AND LET'S BRING YOUR VISION
-                                    TO LIFE</span></div>
+                            <div class="next-hero-subtitle caption-timeline"><span>EXPLORING OUR WORLD
+                                    OF VISUAL AND INTERACTIVE DESIGN</span></div>
                             <a class="page-title next-ajax-link-page" data-type="page-transition"
-                                data-centerline="Say Hey" href="{{ route('contact') }}">
-                                <div class="next-hero-title primary-font-title caption-timeline"><span>Contact</span></div>
+                                data-centerline="ARCHIVE" href="{{ route('archive') }}">
+                                <div class="next-hero-title primary-font-title caption-timeline">
+                                    <span>The Archive</span>
+                                </div>
                             </a>
                         </div>
                     </div>

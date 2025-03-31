@@ -12,16 +12,16 @@ class PageController extends Controller
 {
     public function index()
     {
-        $projects = Project::take(5)->get();
+        $projects = Project::where('show_in_home', true)->get();
         return view('index', compact('projects'));
     }
 
     public function projects()
     {
-        $projects = Project::all();
+        $projects = Project::where('show_in_projects', true)->get();
         return view('projects', compact('projects'));
     }
-    
+
     public function archive()
     {
         $projects = Project::all();
@@ -38,21 +38,6 @@ class PageController extends Controller
         return view('contact');
     }
 
-    public function multimedia()
-    {
-        return view('multimedia');
-    }
-
-    public function typography()
-    {
-        return view('typography');
-    }
-
-    public function shortcodes()
-    {
-        return view('shortcodes');
-    }
-
     public function project(Project $project)
     {
         $allProjects = Project::all()->count();
@@ -64,6 +49,6 @@ class PageController extends Controller
         $nextProjectImage = $nextProject->image;
         $nextProjectLink = $nextProject->id;
         $nextProjectTitle = $nextProject->title;
-        return view('projects.index', compact('project', 'nextProjectImage', 'nextProjectLink', 'nextProjectTitle'));
+        return view('project', compact('project', 'nextProjectImage', 'nextProjectLink', 'nextProjectTitle'));
     }
 }

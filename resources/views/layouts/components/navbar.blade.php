@@ -30,7 +30,7 @@
                         </ul>
                     </li> --}}
                     <li class="link menu-timeline">
-                        <a class="ajax-link {{ request()->is('index') ? 'active' : '' }}" href="{{ route('index') }}"
+                        <a class="ajax-link {{ request()->is('/') ? 'active' : '' }}" href="{{ route('index') }}"
                             data-type="page-transition">
                             <div class="before-span"><span data-hover="Home">Home</span></div>
                         </a>

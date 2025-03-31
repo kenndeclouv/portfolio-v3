@@ -3266,7 +3266,8 @@
 		box-sizing:border-box;	
 		position:relative;
 		width: calc(33.33% - 80px); 
-		height:calc(33.33vw - 80px); 
+		/* height:calc(33.33vw - 80px);  */
+		aspect-ratio: 16/11.5;
 		display:flex;
 		align-items: center;
 		justify-content: center;

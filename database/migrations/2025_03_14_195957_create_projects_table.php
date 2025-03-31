@@ -28,7 +28,9 @@ return new class extends Migration
             $table->text('description')->nullable();
             $table->text('challenge')->nullable();
             $table->string('as')->nullable();
-            $table->enum('theme',['dark-content','light-content'])->default('light-content');
+            $table->boolean('show_in_home')->default(false);
+            $table->boolean('show_in_projects')->default(false);
+            $table->enum('theme', ['dark-content', 'light-content'])->default('light-content');
             $table->timestamps();
         });
     }

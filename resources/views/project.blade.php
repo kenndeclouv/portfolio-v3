@@ -187,5 +187,4 @@
         <!--/Main Content -->
     </div>
     <!--/Main -->
-
 @endsection
