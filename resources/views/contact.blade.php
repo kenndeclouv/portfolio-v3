@@ -60,10 +60,12 @@
                             </div>
                             <div class="email-box">
                                 <input name="email" type="text" id="email" size="30"
-                                    value="{{ old('email') }}" autocomplete="false" placeholder="Your Email"><label class="input_label"></label>
+                                    value="{{ old('email') }}" autocomplete="false" placeholder="Your Email"><label
+                                    class="input_label"></label>
                             </div>
                             <div class="message-box">
-                                <textarea name="comments" cols="40" rows="4" id="comments" autocomplete="false" placeholder="Tell Us About Your Project">{{ old('comments') }}</textarea><label class="input_label slow"></label>
+                                <textarea name="comments" cols="40" rows="4" id="comments" autocomplete="false"
+                                    placeholder="Tell Us About Your Project">{{ old('comments') }}</textarea><label class="input_label slow"></label>
                             </div>
 
                             <div class="verify-box">
@@ -127,7 +129,7 @@
                             <div class="box-icon-content">
                                 <h6 class="no-margins">
                                     <a href="https://maps.app.goo.gl/Dh31uqdegUrBuwT67" target="_blank" class="link">
-                                        <span>Puncak Dieng, Malang, Jawa Timur, ID</span>
+                                        <span>Malang, Indonesia</span>
 
                                     </a>
                                 </h6>

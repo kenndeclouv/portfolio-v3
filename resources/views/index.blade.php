@@ -18,8 +18,7 @@
                             <span>kenndeclouv</span>
                         </h1>
                         <x-subhero>
-                            Beyond pixels and code, I weave stories of functionality and design. <br> Dive into my world of
-                            creative problem-solving and let's bring your vision to life
+                            Living in the Terminal, Dreaming in Code
                         </x-subhero>
                     </div>
                 </div>
@@ -80,7 +79,7 @@
                                                     class="grid__item-img grid__item-img--large"
                                                     alt="{{ $project->title }}">
                                             </div>
-                                            <div class="slide-caption trigger-item-link-secondary" >
+                                            <div class="slide-caption trigger-item-link-secondary">
                                                 <div class="slide-title primary-font-title">
                                                     <span>{{ $project->title }}</span>
                                                 </div>
@@ -98,12 +97,12 @@
 
                     <hr>
 
-                    <p>
+                    {{-- <p>
                         <span class="has-opacity">CRAFTING WEBSITES WHERE THE ELEGANCE</span>
                         <br class="destroy">
                         <span class="has-opacity">OF DESIGN INTERSECTS WITH THE SCIENCE OF SELLING
                             PRODUCTS.</span>
-                    </p>
+                    </p> --}}
 
                     <div class="button-box text-align-center has-animation fadeout-element">
                         <div class="kenndeclouv-button-wrap parallax-wrap hide-ball">
@@ -168,9 +167,11 @@
                                 <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
                             </div>
                             <div class="box-icon-content">
-                                <h6 class="no-margins"><a href="https://g.co/kgs/aLtXJPz" class="link"
-                                        target="_blank">Puncak Dieng,
-                                        Malang, ID</a></h6>
+                                <h6 class="no-margins">
+                                    <a href="https://g.co/kgs/aLtXJPz" class="link" target="_blank">
+                                        Malang, Indonesia
+                                    </a>
+                                </h6>
                                 <p>Address</p>
                             </div>
                         </div>

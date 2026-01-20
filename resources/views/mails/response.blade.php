@@ -243,9 +243,12 @@
                                                                     style="padding:0;Margin:0;padding-top:10px;padding-bottom:10px">
                                                                     <p
                                                                         style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:24px;color:#333333;font-size:16px">
-                                                                        Hey {{ $name }}! 🎉 Thanks so much for reaching out!
-                                                                        I'm super excited to connect with you and I'll get
-                                                                        back to you as soon as possible. Can't wait to chat
+                                                                        Hey {{ $name }}! 🎉 Thanks so much for
+                                                                        reaching out!
+                                                                        I'm super excited to connect with you and I'll
+                                                                        get
+                                                                        back to you as soon as possible. Can't wait to
+                                                                        chat
                                                                         and hear what you have in mind!</p>
                                                                 </td>
                                                             </tr>
@@ -370,10 +373,10 @@
                                                                     style="padding:0;Margin:0;padding-bottom:35px">
                                                                     <p
                                                                         style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
-                                                                        kenndeclouv ©2025. All Rights Reserved.</p>
+                                                                        kenndeclouv ©2026. All Rights Reserved.</p>
                                                                     <p
                                                                         style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:18px;color:#333333;font-size:12px">
-                                                                        Puncak Dieng, Dau, Malang, Indonesia, 65151</p>
+                                                                        Malang, Indonesia</p>
                                                                 </td>
                                                             </tr>
                                                         </table>

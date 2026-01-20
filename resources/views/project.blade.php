@@ -86,17 +86,16 @@
                 </div>
                 <!--/Row -->
                 <!-- Row -->
-                <div class="content-row row_padding_bottom light-section change-header-color" data-bgcolor="#fff">
+                @if ($project->research)
+                    <div class="content-row row_padding_bottom light-section change-header-color" data-bgcolor="#fff">
+                        <div class="one_half">
+                            <h1 class="primary-font-title has-mask-fill">The Research</h1>
+                            <p><span class="has-opacity">{{ $project->research }}</span></p>
+                        </div>
 
-                    <div class="one_half">
-                        <h1 class="primary-font-title has-mask-fill">The Research</h1>
-                        <p><span class="has-opacity">DESIGNING ONLINE PLATFORMS WHERE THE ARTISTRY OF VISUAL APPEAL
-                                CONVERGES WITH THE STRATEGY OF PRODUCT MARKETABILITY.</span></p>
+                        <div class="one_half last"></div>
                     </div>
-
-                    <div class="one_half last"></div>
-
-                </div>
+                @endif
                 <!--/Row -->
                 <!-- Row -->
                 <div class="content-row full dark-section" data-bgcolor="#171717">
@@ -122,21 +121,18 @@
                 <!--/Row -->
                 <!-- Row -->
                 <div class="content-row full light-section" data-bgcolor="#fff" style="margin-bottom: 50px">
-                    <div class="kenndeclouv-slider-wrapper content-slider looped-carousel has-animation autocenter dark-cursor">
+                    <div
+                        class="kenndeclouv-slider-wrapper content-slider looped-carousel has-animation autocenter dark-cursor">
                         <div class="kenndeclouv-slider">
                             <div class="kenndeclouv-slider-viewport">
-                                @if ($project->third_preview)
-                                <div class="kenndeclouv-slide"><div class="slide-img"><img src="{{ asset( $project->third_preview ) }}" alt="Image Title"></div></div>
-                                @endif
-                                @if ($project->fourth_preview)
-                                <div class="kenndeclouv-slide"><div class="slide-img"><img src="{{ asset( $project->fourth_preview ) }}" alt="Image Title"></div></div>
-                                @endif
-                                @if ($project->fifth_preview)
-                                <div class="kenndeclouv-slide"><div class="slide-img"><img src="{{ asset( $project->fifth_preview ) }}" alt="Image Title"></div></div>
-                                @endif
+                                @foreach ($project->project_previews as $preview)
+                                    <div class="kenndeclouv-slide">
+                                        <div class="slide-img"><img src="{{ asset($preview) }}" alt="Image Title"></div>
+                                    </div>
+                                @endforeach
                             </div>
                         </div>
-                        
+
                         <div class="kenndeclouv-controls">
                             <div class="kenndeclouv-button-next slider-button-next"></div>
                             <div class="kenndeclouv-button-prev slider-button-prev"></div>

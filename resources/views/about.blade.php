@@ -1,6 +1,6 @@
 ﻿@extends('layouts.app')
 
-@section('title', 'Helloo!')
+@section('title', 'About Me!')
 @section('bg-color', '#0c0c0c')
 @section('menu-color', '#0c0c0c')
 @section('content-theme', 'light-content')
@@ -55,16 +55,11 @@
 
                         <div class="clipped-image-pin">
                             <div class="clipped-image">
-                                <img src="{{ asset('assets/images/about.jpg') }}" alt="Image Title">
-                                {{-- <div class="content-video-wrapper">
-                                    <video loop="" muted="" playsinline="" class="bgvid">
-                                        <source src="{{ asset('assets/images/about.mp4') }}" type="video/mp4">
-                                    </video>
-                                </div> --}}
+                                <img src="{{ asset('assets/images/about.png') }}" alt="Image Title">
                                 <div class="clipped-image-gradient"></div>
                             </div>
                         </div>
-                        <div class="clipped-image-content text-align-center content-full-width">
+                        <div class="clipped-image-content text-align-center" style="max-width: 50vw">
                             <h2 class="primary-font-title big-title has-mask-fill">About Me</h2>
                             <p>I'm a software engineer with a passion for building scalable and efficient systems. I've
                                 worked with a variety of clients, from small businesses to large corporations. Here are
@@ -306,29 +301,29 @@
                     <div class="moving-gallery bw-gallery">
                         <ul class="wrapper-gallery">
                             <li class="link">
-                                <a target="_blank" href="https://www.kenndeclouv.com/"><img
-                                        src="{{ asset('assets/images/client-05.png') }}" alt="client"></a>
-                                <div class="moving-gallery-caption">SIDIGS</div>
-                            </li>
-                            <li class="link">
-                                <a target="_blank" href="https://www.kenndeclouv.com/"><img
-                                        src="{{ asset('assets/images/client-01.png') }}" alt="client"></a>
+                                <a target="_blank" href="https://imamgt.averroesinsanmulia.com/"><img
+                                        src="{{ asset('assets/images/clients/1.png') }}" alt="client"></a>
                                 <div class="moving-gallery-caption">Imam Muda</div>
                             </li>
                             <li class="link">
-                                <a target="_blank" href="https://www.kenndeclouv.com/"><img
-                                        src="{{ asset('assets/images/client-02.png') }}" alt="client"></a>
-                                <div class="moving-gallery-caption">Griya Tilawah</div>
+                                <a target="_blank" href="#"><img src="{{ asset('assets/images/clients/2.png') }}"
+                                        alt="client"></a>
+                                <div class="moving-gallery-caption">Syabab Studio</div>
                             </li>
                             <li class="link">
-                                <a target="_blank" href="https://www.kenndeclouv.com/"><img
-                                        src="{{ asset('assets/images/client-03.png') }}" alt="client"></a>
+                                <a target="_blank" href="https://sidigs.com/"><img
+                                        src="{{ asset('assets/images/clients/3.png') }}" alt="client"></a>
+                                <div class="moving-gallery-caption">Sidigs</div>
+                            </li>
+                            <li class="link">
+                                <a target="_blank" href="https://ppdb.averroesinsanmulia.com/"><img
+                                        src="{{ asset('assets/images/clients/4.png') }}" alt="client"></a>
                                 <div class="moving-gallery-caption">Averroes</div>
                             </li>
                             <li class="link">
-                                <a target="_blank" href="https://www.kenndeclouv.com/"><img
-                                        src="{{ asset('assets/images/client-04.png') }}" alt="client"></a>
-                                <div class="moving-gallery-caption">Technobit</div>
+                                <a target="_blank" href="#"><img src="{{ asset('assets/images/clients/5.png') }}"
+                                        alt="client"></a>
+                                <div class="moving-gallery-caption">Daris Pos</div>
                             </li>
                         </ul>
                     </div>
@@ -336,29 +331,29 @@
                     <div class="moving-gallery fw-gallery">
                         <ul class="wrapper-gallery">
                             <li class="link">
-                                <a target="_blank" href="https://www.kenndeclouv.com/"><img
-                                        src="{{ asset('assets/images/client-08.png') }}" alt="client"></a>
-                                <div class="moving-gallery-caption">Rare View</div>
+                                <a target="_blank" href="https://ppdb.averroesinsanmulia.com/"><img
+                                        src="{{ asset('assets/images/clients/4.png') }}" alt="client"></a>
+                                <div class="moving-gallery-caption">Averroes</div>
                             </li>
                             <li class="link">
-                                <a target="_blank" href="https://www.kenndeclouv.com/"><img
-                                        src="{{ asset('assets/images/client-05.png') }}" alt="client"></a>
-                                <div class="moving-gallery-caption">Syabab Studio</div>
+                                <a target="_blank" href="https://technobit.id/"><img
+                                        src="{{ asset('assets/images/clients/6.png') }}" alt="client"></a>
+                                <div class="moving-gallery-caption">Technobit</div>
                             </li>
                             <li class="link">
-                                <a target="_blank" href="https://www.kenndeclouv.com/"><img
-                                        src="{{ asset('assets/images/client-06.png') }}" alt="client"></a>
-                                <div class="moving-gallery-caption">Tetris</div>
+                                <a target="_blank" href="#"><img src="{{ asset('assets/images/clients/7.png') }}"
+                                        alt="client"></a>
+                                <div class="moving-gallery-caption">Marboot</div>
                             </li>
                             <li class="link">
-                                <a target="_blank" href="https://www.kenndeclouv.com/"><img
-                                        src="{{ asset('assets/images/client-07.png') }}" alt="client"></a>
-                                <div class="moving-gallery-caption">Harington</div>
+                                <a target="_blank" href="https://xonenetwork.my.id/"><img
+                                        src="{{ asset('assets/images/clients/8.png') }}" alt="client"></a>
+                                <div class="moving-gallery-caption">X1 Community</div>
                             </li>
                             <li class="link">
-                                <a target="_blank" href="https://www.kenndeclouv.com/"><img
-                                        src="{{ asset('assets/images/client-08.png') }}" alt="client"></a>
-                                <div class="moving-gallery-caption">Rare View</div>
+                                <a target="_blank" href="https://technobit.id/"><img
+                                        src="{{ asset('assets/images/clients/6.png') }}" alt="client"></a>
+                                <div class="moving-gallery-caption">Technobit</div>
                             </li>
                         </ul>
                     </div>
@@ -366,55 +361,21 @@
                 </div>
                 <!--/Row -->
 
-
-                <!-- Row -->
-                {{-- <div class="content-row full row_padding_top row_padding_bottom dark-section" data-bgcolor="#0c0c0c">
-
-                    <ul class="team-members-list" data-fx="1">
-                        <li class="link has-hover-image" data-img="images/team1.jpg">
-                            <div class="team-member has-animation"><span>Since 2010</span>
-                                <div class="primary-font-title">Tom Harrison</div><span>Web Designer</span>
-                            </div>
-                        </li>
-                        <li class="link has-hover-image" data-img="images/team2.jpg">
-                            <div class="team-member has-animation"><span>Since 2012</span>
-                                <div class="primary-font-title">Ricky Romano</div><span>UX Designer</span>
-                            </div>
-                        </li>
-                        <li class="link has-hover-image" data-img="images/team3.jpg">
-                            <div class="team-member has-animation"><span>Since 2014</span>
-                                <div class="primary-font-title">Jane Reeves</div><span>Art Director</span>
-                            </div>
-                        </li>
-                        <li class="link has-hover-image" data-img="images/team4.jpg">
-                            <div class="team-member has-animation"><span>Since 2016</span>
-                                <div class="primary-font-title">Billy Craft</div><span>Developer</span>
-                            </div>
-                        </li>
-                        <li class="link has-hover-image" data-img="images/team5.jpg">
-                            <div class="team-member has-animation"><span>Since 2018</span>
-                                <div class="primary-font-title">Cheryl Mezines</div><span>Support Guy</span>
-                            </div>
-                        </li>
-                    </ul>
-
-                </div> --}}
-                <!--/Row -->
                 <!-- Row -->
                 <div class="content-row row_padding_bottom light-section" data-bgcolor="#0c0c0c">
-
                     <div class="marquee-text-wrapper">
-                        <h2 class="marquee-text bw big-title primary-font-title" style="color: #f9e8c9;">Let's bring your
-                            vision to life with cutting-edge technology.</h2>
+                        <h2 class="marquee-text bw big-title primary-font-title" style="color: #f9e8c9;">
+                            Turning complex logic into clean code and high-performance systems.
+                        </h2>
                     </div>
 
                     <hr>
 
                     <div class="marquee-text-wrapper">
-                        <h2 class="marquee-text fw big-title primary-font-title" style="color: #f9e8c9;">Ready to
-                            transform your business? Let's get started today!</h2>
+                        <h2 class="marquee-text fw big-title primary-font-title" style="color: #f9e8c9;">
+                            Ready to scale? Let's deploy your vision to production today!
+                        </h2>
                     </div>
-
                 </div>
                 <!--/Row -->
 
@@ -429,12 +390,12 @@
                 <div class="page-nav-wrap">
                     <div class="page-nav-caption content-full-width text-align-center height-title">
                         <div class="inner">
-                            <div class="next-hero-subtitle caption-timeline"><span>EXPLORING OUR WORLD
-                                    OF VISUAL AND INTERACTIVE DESIGN</span></div>
+                            <div class="next-hero-subtitle caption-timeline"><span>EXPLORING MY AWESOME PROJECTS</span>
+                            </div>
                             <a class="page-title next-ajax-link-page" data-type="page-transition"
-                                data-centerline="ARCHIVE" href="{{ route('archive') }}">
+                                data-centerline="PROJECTS" href="{{ route('projects') }}">
                                 <div class="next-hero-title primary-font-title caption-timeline">
-                                    <span>The Archive</span>
+                                    <span>Projects</span>
                                 </div>
                             </a>
                         </div>

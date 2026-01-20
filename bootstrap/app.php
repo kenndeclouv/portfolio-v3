@@ -12,7 +12,9 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware) {
-        //
+        $middleware->alias([
+            'dashboard.auth' => \App\Http\Middleware\SecretDashboardAuth::class,
+        ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //

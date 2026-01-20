@@ -127,10 +127,9 @@
                 <div class="page-nav-wrap">
                     <div class="page-nav-caption content-full-width text-align-center height-title">
                         <div class="inner">
-                            <div class="next-hero-subtitle caption-timeline"><span>EXPLORING OUR WORLD
-                                    OF VISUAL AND INTERACTIVE DESIGN</span></div>
-                            <a class="page-title next-ajax-link-page" data-type="page-transition"
-                                data-centerline="ARCHIVE" href="{{ route('archive') }}">
+                            <div class="next-hero-subtitle caption-timeline"><span>EXPLORE MY ARCHIVED PROJECTS</span></div>
+                            <a class="page-title next-ajax-link-page" data-type="page-transition" data-centerline="ARCHIVE"
+                                href="{{ route('archive') }}">
                                 <div class="next-hero-title primary-font-title caption-timeline">
                                     <span>The Archive</span>
                                 </div>
